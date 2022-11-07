@@ -36,7 +36,7 @@ services:
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
 
   selenium-framework:
-    image: mayankluckym/selenium_2
+    image: mayankluckym/selenium-docker
     depends_on:
       -  chrome
 
