@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo Web App test suite" parallel="classes" thread-count="4" >
+	<listeners>
+		<listener
+			class-name="reports.ListenersImplementation" />
+		<listener
+			class-name="reports.TestRetryAnalyzerListener" />
+	</listeners>
+	<test name="LoginTests">
+		<classes>
+			<class name="Tests.LoginTest" />
+			<class name="Tests.ForgotPasswordTest" />
+			<class name="Tests.RegistrationTest" />
+
+		</classes>
+	</test> <!-- Test -->
+		<!--<test name="DataDriven Tests">
+		<classes>
+		<class name="Tests.TestCase" />
+		</classes>
+	</test>--> <!-- Test -->
+</suite> <!-- Suite -->

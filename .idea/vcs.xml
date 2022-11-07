@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jenkins/caches/git-9850ae406da03b81943c5b6b670dd056" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jenkins/workspace/Selenium_Docker_Project@script/d310875462be0e0efe4ee94e91fcf5d8f880cc7a04282814c149cc7b85c86eb4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jenkins_slave/workspace/Selenium_Docker_Project" vcs="Git" />
+  </component>
+</project>
