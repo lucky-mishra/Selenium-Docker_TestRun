@@ -33,11 +33,7 @@ pipeline {
 				bat "docker-compose up selenium-framework"
 			}
 		}
-	    stage('Report'){
-		    steps{
-			    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'coverage', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: 'Coverage Report', useWrapperFileDirectly: true])
-		    }
-	    }
+	   
 	}
 	post{
 		always{
