@@ -10,7 +10,7 @@ COPY pom.xml /home/SeleniumFramework/
 #copying testng.xml of my framework
 COPY testng.xml /home/SeleniumFramework/
 
-ADD healthcheck.sh healthcheck.sh
+#ADD healthcheck.sh healthcheck.sh
 #Running the suite
-#ENTRYPOINT mvn -f /home/SeleniumFramework/pom.xml clean test
-ENTRYPOINT sh healthcheck.sh
+ENTRYPOINT mvn -f /home/SeleniumFramework/pom.xml clean test
+#ENTRYPOINT sh healthcheck.sh
